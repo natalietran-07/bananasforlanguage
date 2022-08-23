@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="/img/icon-192x192.PNG">
+        <link rel="shortcut icon" sizes="192x192" href="/img/icon-192x192.PNG">
+        <link rel="apple-touch-icon" href="/img/icon-192x192.PNG">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Groceries</title>
+        <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+        <div class="fade-in msgModal">Javascript must be enabled for this website to work properly.</div>
+        <div class="header"></div>
+        <div id="scrollmenu"></div>
+        <div class="shuffleWrapper"><span class="shuffleBtn" id="defaultOpen">Shuffle</span></div>
+        <div id="Groceries" class="tabcontent">
+                <div class="slide">
+                        <div id="c_slide0" class="row">
+                                <div class="img-container card"><img src="img/Groceries/a1.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="0" class="topText">candy</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a2.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="1" class="topText">honey</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a3.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="2" class="topText">ice cream</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a4.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="3" class="topText">sugar</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a5.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="4" class="topText">milk</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a6.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="5" class="topText">bread</div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="slide">
+                        <div id="c_slide1" class="row">
+                                <div class="img-container card"><img src="img/Groceries/a7.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="6" class="topText">water</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a8.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="7" class="topText">rice</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a9.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="8" class="topText">black pepper</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a10.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="9" class="topText">salt</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a11.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="10" class="topText">orange juice</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a12.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="11" class="topText">flour</div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="slide">
+                        <div id="c_slide2" class="row">
+                                <div class="img-container card"><img src="img/Groceries/a13.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="12" class="topText">chicken</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a14.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="13" class="topText">pork</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a15.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="14" class="topText">beef</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a16.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="15" class="topText">eggs</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a17.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="16" class="topText">cheese</div>
+                                        </div>
+                                </div>
+                                <div class="img-container card"><img src="img/Groceries/a18.jpg" style="width:100%">
+                                        <div class="backSide">
+                                                <div id="17" class="topText">salmon</div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <div class="slideSelection" style="text-align:center"><span class="pageBtn">1</span> <span
+                        class="pageBtn">2</span> <span class="pageBtn">3</span></div>
+        <div class="selectWrapper">
+                <div class="selectPanel" id="sound">
+                        <hr><select id="country" class="select-css" onchange=""></select>
+                        <hr>
+                </div>
+        </div>
+        <div id="GroceriesSound" class="tabcontent">
+                <div class="s-Slide">
+                        <div id="s-Page0" class="s-Row">
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a1.mp3"
+                                                hidden></audio><span id="0.0" class="btmText">candy</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a2.mp3"
+                                                hidden></audio><span id="1.0" class="btmText">honey</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a3.mp3"
+                                                hidden></audio><span id="2.0" class="btmText">ice cream</span>
+                                        <span><img class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a4.mp3"
+                                                hidden></audio><span id="3.0" class="btmText">sugar</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a5.mp3"
+                                                hidden></audio><span id="4.0" class="btmText">milk</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a6.mp3"
+                                                hidden></audio><span id="5.0" class="btmText">bread</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                        </div>
+                </div>
+                <div class="s-Slide">
+                        <div id="s-Page1" class="s-Row">
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a7.mp3"
+                                                hidden></audio><span id="6.0" class="btmText">water</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a8.mp3"
+                                                hidden></audio><span id="7.0" class="btmText">rice</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a9.mp3"
+                                                hidden></audio><span id="8.0" class="btmText">black pepper</span>
+                                        <span><img class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a10.mp3"
+                                                hidden></audio><span id="9.0" class="btmText">salt</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a11.mp3"
+                                                hidden></audio><span id="10.0" class="btmText">orange juice</span>
+                                        <span><img class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a12.mp3"
+                                                hidden></audio><span id="11.0" class="btmText">flour</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                        </div>
+                </div>
+                <div class="s-Slide">
+                        <div id="s-Page2" class="s-Row">
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a13.mp3"
+                                                hidden></audio><span id="12.0" class="btmText">chicken</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a14.mp3"
+                                                hidden></audio><span id="13.0" class="btmText">pork</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a15.mp3"
+                                                hidden></audio><span id="14.0" class="btmText">beef</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a16.mp3"
+                                                hidden></audio><span id="15.0" class="btmText">eggs</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a17.mp3"
+                                                hidden></audio><span id="16.0" class="btmText">cheese</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                                <div class="button"><audio class="audBtn" src="./sounds/Groceries/English/a18.mp3"
+                                                hidden></audio><span id="17.0" class="btmText">salmon</span> <span><img
+                                                        class="img-valign" src="img/sound.jpg" alt=""></span></div>
+                        </div>
+                </div>
+        </div>
+        <div class="note">
+                <div>* English (American English)</div>
+                <div>** Chinese (Mandarin, Simplified)</div>
+        </div>
+        <hr style="margin-bottom: -3px ;border-top: 1px solid #cacaca;width: 100%;">
+        <div class="footer">
+                <div class="btmMenu"><a href="about.html">About</a> <a href="contact.html">Contact</a></div>
+                <div class="btmMenu"><a href="termsConditions.html">Terms & Conditions</a> <a
+                                href="privacy.html">Privacy Policy</a> <a href="disclaimer.html">Disclaimer</a></div>
+                <div>
+                        <p id="cp-text">© Copyright 2021 Bananas For English. All rights reserved.</p>
+                </div>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
